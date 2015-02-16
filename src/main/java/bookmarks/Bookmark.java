@@ -18,7 +18,7 @@ public class Bookmark {
     @GeneratedValue
     private Long id;
     
-    Bookmark() {
+    public Bookmark() {
     }
     
     public Bookmark(Account account, String uri, String description) {
