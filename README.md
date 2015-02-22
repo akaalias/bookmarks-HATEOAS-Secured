@@ -7,4 +7,4 @@ Right-click the project folder -> Run as... -> Spring Boot App
 
 ## To run test suite:
 
-Right-click the project folder -> Run as... -> JUnit Test
+Right-click the project folder -> Run as... -> JUnit Test# bookmarks-HATEOAS
