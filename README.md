@@ -11,8 +11,9 @@ Right-click the project folder -> Run as... -> JUnit Test
 
 ## To try it out
 
-``` curl http://localhost:8080/jhoeller/bookmarks/4 | python -m json.tool
+``` curl http://localhost:8080/jhoeller/bookmarks/4 | python -m json.tool```
 
+```
 {
     "bookmark": {
         "description": "A description",
