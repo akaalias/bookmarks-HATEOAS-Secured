@@ -127,7 +127,6 @@ public class BookmarkRestControllerTest {
                 .andExpect(jsonPath("$.content[1].bookmark.id", is(this.bookmarkList.get(1).getId().intValue())))
                 .andExpect(jsonPath("$.content[1].bookmark.uri", is("http://bookmark.com/2/" + userName)))
                 .andExpect(jsonPath("$.content[1].bookmark.description", is("A description")))
-                		
                 ;
     }
 
